@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.conts{
+    width: 100%; /* width of container */
+    height: 100vh; /* height of container */
+    object-fit: cover;
+    
+}
+nav{
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+nav ul{
+  flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+
+.content{
+    position: absolute;
+    color:#fff;
+    margin-left: 3%;
+    margin-top:20%;
+    
+
+}
+.content h1{
+    font-size: 88px;
+    margin-bottom:15px ;
+    color: goldenrod;
+    font-family: 'Bree Serif', serif;
+}
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 25px;
+    display:flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin:0 15px ;
+    color: goldenrod;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.coin img{
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px
+}
+.text{
+    margin-top:0.5px;
+}
+.text h3{
+    color: #fff;
+}
